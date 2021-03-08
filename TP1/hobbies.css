@@ -7,7 +7,6 @@
 
 #nav {
 	line-height: 30px;
-	background-color: blanchedalmond;
 	height: 350px;
 	width: 150px;
 	float: left;
@@ -17,9 +16,8 @@
 
 #section {
 	background-color: antiquewhite;
+	margin-left: 150px;
 	height: 350px;
-	width: 350px;
-	float: left;
 	padding: 10px;
 }
 
