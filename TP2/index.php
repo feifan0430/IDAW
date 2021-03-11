@@ -1,29 +1,34 @@
-<!DOCTYPE html>
-<html>
-<body>
-    <h1>TP2 index.php</h1>
+<!--AMSE PHP TP2 Fan_FEI-->
+<?php
+require_once "template_header.php"
+?>
+        <div id="header">
+            <h1>IDAW TP2 Fan_FEI</h1>
+        </div>
 
-    <?php
+        <div id="nav">
+            <?php
+            require_once "template_menu.php";
+            renderMenuToHTML('index');
+            ?>
+        </div>
 
-    echo "Today is " . date("Y/m/d");
-    echo "<br/>";
-    echo "Today is " . date("Y.m.d");
-    echo "<br/>";
-    echo "Today is " . date("Y-m-d");
-    echo "<br/>";
-    echo "<hr/>";
+        <div id="section">
+            <h2>Readme</h2>
+            <p>
+                <b>You can view my code in my github repository : </b>
+                <i><a href="https://github.com/feifan0430/IDAW.git" target="_blank">
+                    https://github.com/feifan0430/IDAW.git
+                </a></i>
+            </p>
+            <p>
+                <b>OR</b>
+            </p>
+            <p>
+                <b>You can use</b> <i>Ctrl + U</i>
+            </p>
+        </div>
 
-    function showTime() {
-        echo "Now is " . date("h:i:sa");
-        echo "<br/>";
-    }
-    showTime();
-    echo "<hr/>";
-
-    $myBirthday = array("1998", "04", "30");
-    echo "My birthday is " . $myBirthday[2] . "/" . $myBirthday[1] . "/" . $myBirthday[0] . ".";
-
-    ?>
-
-</body>
-</html>
+<?php
+require_once "template_footer.php"
+?>
