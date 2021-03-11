@@ -11,10 +11,10 @@ function renderMenuToHTML($currentPageId) {
     // un tableau qui definit la structure du site
     $mymenu = array(
     // idPage titre
-    'index' => array('Accueil'),
-    'cv' => array('Cv'),
-    'projets' => array('Mes Projets'),
-    'ex2' => array('TP2-ex2')
+        'index' => array('Accueil'),
+        'cv' => array('Cv'),
+        'projets' => array('Mes Projets'),
+        'ex2' => array('TP2-ex2')
     );
     echo "<ul>";
     foreach($mymenu as $pageId => $pageParameters) {

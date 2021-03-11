@@ -34,7 +34,7 @@ require_once "template_header.php"
                 <br />
                 <b>Xidian Université</b> <i>août 2016 – juin 2020</i>
                 <br />
-                <b>Collège affilié à l’Université normale d’Anhui</b> <i>août 2013 - juin 2016</i>
+                <b>Collège affilié à l'Université normale d'Anhui</b> <i>août 2013 - juin 2016</i>
             </p>
             <hr / color="brown">
             <h3>
