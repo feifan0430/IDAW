@@ -2,19 +2,19 @@
 <?php
 require_once "template_header.php"
 ?>
-        <div id="header">
+        <!-- <div id="header">
             <h1>IDAW TP2-ex2 Fan_FEI</h1>
-        </div>
+        </div> -->
 
-        <div id="nav">
+        <!-- <div id="nav">
             <?php
             require_once "template_menu.php";
             renderMenuToHTML('ex2');
             ?>
-        </div>
+        </div> -->
 
         <div id="section">
-            <h2>Readme</h2>
+            <h2>TP2-Ex2</h2>
             <p>
             <?php
             echo "Today is " . date("Y/m/d");

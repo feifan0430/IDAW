@@ -2,16 +2,16 @@
 <?php
 require_once "template_header.php"
 ?>
-        <div id="header">
+        <!-- <div id="header">
             <h1>CV</h1>
-        </div>
+        </div> -->
 
-        <div id="nav">
+        <!-- <div id="nav">
             <?php
             require_once "template_menu.php";
             renderMenuToHTML('cv');
             ?>
-        </div>
+        </div> -->
 
         <div id="section">
             <h2>
