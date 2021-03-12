@@ -9,7 +9,7 @@ require_once "template_header.php"
         <!-- <div id="nav">
             <?php
             require_once "template_menu.php";
-            renderMenuToHTML('projets');
+            renderMenuToHTML('projets','fr');
             ?>
         </div> -->
 
