@@ -2,17 +2,6 @@
 <?php
 require_once "template_header.php"
 ?>
-        <!-- <div id="header">
-            <h1>CV</h1>
-        </div> -->
-
-        <!-- <div id="nav">
-            <?php
-            require_once "template_menu.php";
-            renderMenuToHTML('cv','fr');
-            ?>
-        </div> -->
-
         <div id="section">
             <h2>
                 Fan FEI

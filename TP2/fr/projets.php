@@ -2,17 +2,6 @@
 <?php
 require_once "template_header.php"
 ?>
-        <!-- <div id="header">
-            <h1>Mes Projets</h1>
-        </div> -->
-
-        <!-- <div id="nav">
-            <?php
-            require_once "template_menu.php";
-            renderMenuToHTML('projets','fr');
-            ?>
-        </div> -->
-
         <div id="section">
             <h2>
                 <img src="images/IMT_Lille_Douai_Logo_WEB.png" alt="IMT_Lille_Douai_Logo" align="right" height="130px">

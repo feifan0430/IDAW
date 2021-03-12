@@ -2,17 +2,6 @@
 <?php
 require_once "template_header.php"
 ?>
-        <!-- <div id="header">
-            <h1>IDAW TP2-ex2 Fan_FEI</h1>
-        </div> -->
-
-        <!-- <div id="nav">
-            <?php
-            require_once "template_menu.php";
-            renderMenuToHTML('ex2','en');
-            ?>
-        </div> -->
-
         <div id="section">
             <h2>TP2-Ex2</h2>
             <p>
