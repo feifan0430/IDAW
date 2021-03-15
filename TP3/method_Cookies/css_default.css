@@ -1,0 +1,14 @@
+#cssfile {
+	background-color: rgb(119, 61, 61);
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+#footer {
+	background-color: rgb(119, 61, 61);
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+}
