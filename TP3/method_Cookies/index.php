@@ -1,3 +1,4 @@
+<!--AMSE PHP TP3 Fan_FEI-->
 <?php
     if(isset($_COOKIE["usercss"])) {
         setcookie("usercss", "", time() - 10);
