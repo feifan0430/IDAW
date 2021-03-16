@@ -6,7 +6,7 @@
             <td><input type="text" name="login"></td>
         </tr>
         <tr>
-            <th>Mot de passe :</th>
+            <th>Password :</th>
             <td><input type="password" name="password"></td>
         </tr>
         <tr>
