@@ -12,7 +12,11 @@
 <html>
     <head>
         <?php
-            $stylesheetname = "'" . $_COOKIE["usercss"] . ".css'";
+            if(isset($_COOKIE["usercss"])) {
+                $stylesheetname = "'" . $_COOKIE["usercss"] . ".css'";
+            } else {
+                $stylesheetname = "'css_default.css'";
+            }
             echo "<link rel='stylesheet' href=" . $stylesheetname .">";
         ?>
         <title>TP3 Fan FEI</title>
@@ -29,7 +33,11 @@
 
         <div id="cssfile">
         <?php
-            echo "We now use the .css file : " . $_COOKIE["usercss"] .".css";
+            if(isset($_COOKIE["usercss"])) {
+                echo "We now use the .css file : " . $_COOKIE["usercss"] .".css";
+            } else {
+                echo "We now use the .css file : css_default.css";
+            }
         ?>
         </div>
 
