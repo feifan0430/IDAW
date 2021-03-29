@@ -21,7 +21,7 @@
     </div>
 
     <div>
-	    <table id="myTable" border="border" align="center">
+	    <table id="myTable" align="center">
 			<thead>
 				<tr>
                     <th>Energie(kJ)</th>
