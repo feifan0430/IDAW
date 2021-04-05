@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8"> 
+	<title>Inscription</title>
+	<script src="js/jquery-3.6.0.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="css/inscrit.css" media="screen" />
+</head> 
+<body> 
+	<div id="title">
+    	<!-- <img src="imgs/IMT_Lille_Douai.png"  alt="IMT Lille Douai" /> -->
+		<b>IMT <i>i Manger Mieux</i></b>
+    </div>
+<div id="block">
+<form id="inscription_form" >
+	<table> 
+		<tr>
+			<th>Compte :</th>
+			<td><label><input type="text" id="name"></label></td>
+		</tr> 
+		<tr>
+			<th>Mot de passe :</th>
+			<td><label><input type="password" id="password"></label></td>
+		</tr> 
+		<tr>
+			<th>âge :</th>
+			<td>
+				<label>
+					<select id="age">
+						<option value="NULL">**Sélectionner**</option>
+ 						<option value="0-40">40-</option>
+  						<option value="40-60">40-60</option>
+  						<option value="60+">60+</option>
+  					</select>
+				</label>
+			</td>
+		</tr> 
+		<tr>
+			<th>sexe:</th>
+			<td>
+				<label>
+					<select id="sexe">
+						<option value="NULL">**Sélectionner**</option>
+						<option value="Homme">Homme</option>
+						<option value="Femme">Femme</option>
+					</select>
+				</label>
+			</td>
+		</tr> 
+		<tr>
+			<th>niveau de pratique sportive :</th>
+			<td>
+				<label>
+					<select id="sport">
+						<option value="NULL">**Sélectionner**</option>
+						<option value="bas">bas</option>
+ 						<option value="moyen">moyen</option>
+  						<option value="élevé"> élevé</option>
+  					</select>
+				</label>
+			</td>
+			<th></th>
+			<td><input type="button" value="submit" onclick="inscrire()"/></td>
+		</tr>
+	</table>
+</form>
+</div>
+</body>
+<script src="js/inscrit.js" type="text/javascript"></script>
+</html>
